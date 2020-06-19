@@ -1,11 +1,14 @@
     void ft_print_numbers(void)
 
-
+    
 {   
-	int n;
-    for(n=0;n<=9;n++)
+
+    int i='0'; 
+    while(i<='9')
 	{
-	printf("%d",n); 
+	putchar(i);
+    i++;
 	}	
+
 	return 0;
 }		
