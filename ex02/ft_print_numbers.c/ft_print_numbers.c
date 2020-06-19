@@ -1,6 +1,6 @@
-    #include <stdio.h>
+    void ft_print_numbers(void)
 
-    int main()
+
 {   
 	int n;
     for(n=0;n<=9;n++)
