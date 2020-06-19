@@ -1,9 +1,11 @@
-void ft_print_alphabet(void);
-{   
-	int i='a';
+    void ft_print_alphabet(void)
+
+	
+{
+	char i='a';
     while(i<='z')
 	{
-	    printf("%c",i);
+	    putchar(i); 
 		i++;
 	}
  
