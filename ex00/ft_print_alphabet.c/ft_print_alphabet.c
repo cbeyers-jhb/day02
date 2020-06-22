@@ -1,15 +1,12 @@
     void ft_print_alphabet(void)
-
-	
 {
-	char i='a';
-    while(i<='z')
+	char i; 
+	i='a';
+    while(i <='z')
 	{
-	    putchar(i); 
+	    ft_putchar(i); 
 		i++;
-	}
- 
-    return 0;
-}	
+	} 
+}  	
 
 

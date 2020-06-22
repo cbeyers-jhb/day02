@@ -1,17 +1,23 @@
-void ft_print_comb2(void)
-
-
+int ft_putchar(char c);
+void ft_putchar_comb(void)
 {
-	int i, j;
-    {
-	for(i = 00; i <= 99; i++)
-        {
-		for(j = 00; j <= 99; j++)
-		    {
-		    printf("%d, %d", i, j);
-		    }	
-		
+    int a;
+	int b;
+
+	a = 0;
+	while (a++ < '8')
+	{
+	    b = a;
+		while (b++ < '9')
+		{
+		    ft_putchar(a);
+			ft_putchar(b);
+			if (a != '8')
+			{
+			    ft_putchar(',');
+				ft_putchar(' ');
+			}	
 		}	
-	}
-  return 0;
-}	
+	}	
+}
+

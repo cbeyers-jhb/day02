@@ -1,13 +1,12 @@
-    void ft_print_reverse_alphabet.c
-
-   
-
-    {  
-		int i;
+    void ft_print_reverse_alphabet(void)
+{  
+	char i;
 	
-		for(i='z';i>='a';i--) 
-		   putchar(i);
-
-	    return 0;
-    }	
+	i ='z';
+	while(i >= 'a')
+	{
+	ft_putchar(i);
+	i--;
+	}	
+}	
  
