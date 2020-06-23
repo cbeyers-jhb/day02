@@ -1,5 +1,5 @@
-int ft_putchar(char c);
-void ft_putchar_comb(void)
+int ft_putchar(void);
+void ft_print_comb(void)
 {
     int a;
 	int b;

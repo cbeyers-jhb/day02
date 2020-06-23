@@ -1,9 +1,7 @@
-#include <stdio.h>
-
-void add( int );
-
-int main()
+void ft_putchar(int n);
 {
+    char str[42];
 
-int x = 42
-
+	gets(str);
+    puts(str); 
+}	
